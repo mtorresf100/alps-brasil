@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-workbox.core.setCacheNameDetails({prefix: 'fedex_1.0.23'});
+workbox.core.setCacheNameDetails({prefix: 'fedex_1.0.25'});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
