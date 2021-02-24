@@ -1,10 +1,11 @@
 {
   "name": "alps-brasil",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "node gh-deploy.js"
   },
   "dependencies": {
     "@nuxtjs/recaptcha": "^0.6.2",
@@ -33,6 +34,8 @@
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-pwa": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
+    "execa": "^1.0.0",
+    "fs": "^0.0.1-security",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-vuetify": "^2.0.6",
